@@ -1,0 +1,50 @@
+Q. 스프링 부트란 무엇일까?
+A. 자바 프로그램을 보다 쉽고 빠르게 만들어주는 도구
+
+* SpingBoot 설치과정
+ JDK, IDE, Project이 필요
+ Artifact는 프로그램 이름
+
+* 웹 서비스의 동작원리
+ 클라이언트와 서버
+ 기본적으로 static 폴더 내부에서 찾음
+
+* MVC 패턴
+-> Model
+-> View
+-> Controller
+
+* View layout
+ header
+ content
+ footer
+
+* CRUD
+ Create
+ Read
+ Update
+ Delete
+
+* 필기
+ java 코드가 바뀔 땐 재실행 해야함
+ mustache 코드는 빌드(망치)만 해도 반영됨
+
+# Client
+<GET, POST...>
+# Server
+ DTO -> Controller -> Entity -> Repository
+< save() >
+# Database
+ID / TITLE / CONTENT
+
+* SQL
+ insert - Create
+ select - Read
+ update - Update
+ delete - Delete
+
+* Database
+ 접속: localhost:8080/h2-console
+ JDBC URL: 인텔리제이 실행 창에서 jdbc:h2 검색한 값을 넣어줘야함
+ ex) jdbc:h2:mem:914b2664-c257-4c52-a6e4-76bb09dd3e10
+ 데이터베이스는 서버가 실행될때마다 새로 생김
